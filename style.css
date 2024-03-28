@@ -1,0 +1,26 @@
+/* Galléria */
+div.container {
+    background-color: aliceblue;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 2px 2px 2px black;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+    padding: 0 4px;
+    float: left;
+  }
+  
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+    margin: 5px;
+}
